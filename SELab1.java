@@ -5,7 +5,6 @@ public class SELab1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-           System.out.println("Enter your operation.");
         if (args.length == 3) {
 
             int a = Integer.parseInt(args[0]);
