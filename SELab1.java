@@ -18,6 +18,9 @@ public class SELab1 {
             if (c.equals("*")) {
               d = a * b;
             }
+            if (c.equals("-")) {
+              d = a - b;
+            }
 
             System.out.println(d);
         }
