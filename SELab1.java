@@ -15,6 +15,9 @@ public class SELab1 {
                 d = a + b;
             }
             
+            if (c.equals("*")) {
+              d = a * b;
+            }
             if (c.equals("-")) {
               d = a - b;
             }

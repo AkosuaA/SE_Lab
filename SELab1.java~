@@ -5,7 +5,6 @@ public class SELab1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-           System.out.println("Enter your operation.");
         if (args.length == 3) {
 
             int a = Integer.parseInt(args[0]);
@@ -14,6 +13,10 @@ public class SELab1 {
             int d = 0;
             if (c.equals("+")) {
                 d = a + b;
+            }
+            
+            if (c.equals("-")) {
+              d = a - b;
             }
 
             System.out.println(d);
